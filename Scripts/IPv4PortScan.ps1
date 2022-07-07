@@ -55,7 +55,7 @@ param(
             return $true
         }
     })]
-    [Int32]$EndPort=65535,
+    [Int32]$EndPort=1024,
 
     [Parameter(
         Position=3,
